@@ -1,0 +1,36 @@
+
+.bgcolor1{
+	background: #282828; /* Gris */
+}
+.bgcolor2{
+	background: #00aeff; /*Azul*/
+}
+.bgcolor3{
+	background: #5c0ea5; /*Violeta*/
+}
+.bgcolor4{
+	background: #b0b0b0; /*Plomo*/
+}
+.txtcolor1{
+	color: #282828; /* Gris */
+}
+.txtcolor2{
+	color: #00aeff; /*Azul*/
+}
+.txtcolor3{
+	color: #5c0ea5; /*Violeta*/
+}
+.txtcolor4{
+	color: #b0b0b0; /*Plomo*/
+}
+.pad_inter{
+	padding: 5px #b0b0b0;
+}
+header {
+ background: #282828;
+}
+#container-nav{
+
+background: #000000;
+
+}
