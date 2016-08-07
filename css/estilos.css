@@ -23,6 +23,9 @@
 .txtcolor4{
 	color: #b0b0b0; /*Plomo*/
 }
+.txtblanco{
+	color:#fff;
+}
 .pad_inter{
 	padding: 5px #b0b0b0;
 }
@@ -35,6 +38,8 @@ background: #000000;
 
 }
 #eventos{
-
 background: white;	
+}
+.add-margin{
+	margin:10px;
 }
