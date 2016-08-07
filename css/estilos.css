@@ -1,5 +1,12 @@
+body{
+	background: url('../img/bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat; ;
 
-.bgcolor1{
+}
+
+.bgcolor{
 	background: #282828; /* Gris */
 }
 .bgcolor2{
@@ -10,6 +17,9 @@
 }
 .bgcolor4{
 	background: #b0b0b0; /*Plomo*/
+}
+.bgcolor5{
+	background: rgba(0,0,0,0.7);
 }
 .txtcolor1{
 	color: #282828; /* Gris */
@@ -27,7 +37,7 @@
 	color:#fff;
 }
 .pad_inter{
-	padding: 5px #b0b0b0;
+	padding: 5px;
 }
 header {
  background: #282828;
@@ -35,7 +45,6 @@ header {
 #container-nav{
 
 background: #000000;
-
 }
 #eventos{
 background: white;	
@@ -43,3 +52,90 @@ background: white;
 .add-margin{
 	margin:10px;
 }
+.add-marginss{
+	margin:5px;
+}
+.icon-entry{
+	width: 60px;
+	height: 60px;
+	margin-top: 10px;
+	margin-left: -5px;
+	border-radius: 50px;
+	
+}
+.give-top{
+	margin-top: -20px;
+}
+.container2{
+	width: 100%;
+	max-width: 1200px;
+	margin:auto;
+}
+.flayers{
+	width: 100%;
+	max-width: 400px;
+	height: 400px;
+
+}
+
+
+div.contenedor{
+	height: 450px;
+}
+
+div.imagen{
+	height: 450px;
+
+	overflow: hidden;
+	-webkit-transition: height 0.4s;
+	-moz-transition: height 0.4s;
+	-o-transition: height 0.4s;
+}
+img.Wallpaper{
+	position: relative;
+	display: block;
+	margin: auto;
+	height: 450px;
+	overflow: hidden;
+	-webkit-transitio
+	n: height 0.4s;
+	-moz-transition: height 0.4s;
+	-o-transition: height 0.4s;
+}
+iframe.Wallpaper{
+
+	display: block;
+	margin: auto;
+	height: 450px;
+	overflow: hidden;
+	-webkit-transition: height 0.4s;
+	-moz-transition: height 0.4s;
+	-o-transition: height 0.4s;
+}
+div.info{
+	box-shadow: 0px 0px 5px #000;
+	display: block;
+	position: relative;
+	background: #2E2E2E;
+	height: 0px;
+	overflow: hidden;
+	-webkit-transition: height 0.4s;
+	-moz-transition: height 0.4s;
+	-o-transition: height 0.4s;
+	cursor: pointer;
+}
+
+
+div.contenedor:hover div.imagen{
+height: 320px;
+opacity:1;
+}
+div.contenedor:hover div.info{
+
+padding-top: 5px;
+height: 130px;
+
+}
+div.contenedor:hover img.Wallpaper{
+height: 390px;
+
