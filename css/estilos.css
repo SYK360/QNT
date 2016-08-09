@@ -1,9 +1,20 @@
+*{
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
 body{
-	background: url('../img/bg.jpg');
+	background: url('../img/bg.png');
     background-size: cover;
     background-attachment: fixed;
-    background-repeat: no-repeat; ;
+    background-repeat: no-repeat;
 
+}
+.text-font{
+	font-family: 'Pacifico', cursive;
+	font-size: 40pt;
 }
 
 .bgcolor{
@@ -33,11 +44,17 @@ body{
 .txtcolor4{
 	color: #b0b0b0; /*Plomo*/
 }
+.txtcolor5{
+	color: #a50e5c;
+}
 .txtblanco{
 	color:#fff;
 }
 .pad_inter{
 	padding: 5px;
+}
+.pad_inters{
+	padding: 10px;
 }
 header {
  background: #282828;
@@ -175,3 +192,24 @@ height: 390px;
 	-webkit-transition: opacity 0.5s;
 	-o-transition: opacity 0.5s;
 }
+
+.estrellas{
+	background: url(../img/estrellas.jpg);
+	background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 0 -900px;
+
+}
+.redes{
+	opacity: .5;
+	cursor: pointer;
+}
+.redes:hover{
+	opacity: 1;
+	-moz-transition: opacity 0.5s;
+	-webkit-transition: opacity 0.5s;
+	-o-transition: opacity 0.5s;
+	transition: opacity 0.5s;
+}
+
