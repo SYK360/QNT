@@ -5,14 +5,14 @@
 
 $(document).ready(function(){
   var altura = $('.menu').offset().top;
-  var fin = $('.menu').offset().bottom;
+  var fin = $('.publi').offset().bottom;
   var foot = $('.fin').offset().top;
-  
+
   $(window).on('scroll', function(){
     if ( $(window).scrollTop() > altura ){
       $('.menu').addClass('menu-fixed');
     } 
-    else if ($(window).scrollTop() > foot) {
+    else if (fin != foot) {
       $('.menu').removeClass('menu-fixed');
     }
     else {
