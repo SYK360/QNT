@@ -1,113 +1,4 @@
-<html lang="es">
-<head>
-	<meta charset="UTF-8">
-
-	<title>Quito Nocturno</title>
-
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/estilos.css">
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico"/>
-    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="img/favicon.ico"/>
-
-    <script type="text/javascript" href="js.js"></script>
-    <script type="text/javascript" href="https://code.jquery.com/jquery-3.1.0.min.js"></script>
-    <script type="text/javascript" href="js/jquery.js"></script>
-    <script type="text/javascript" href="js/bootstrap.min.js"></script>  
-    <!-- FONTS -->
-    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-
-</head>
-<body>
-
-
-  <body>
- <header class="bgcolor">
-<nav class="navbar navbar-inverse ">
-  <div class="container-fluid">
-
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li><a href="#">Contactos</a></li>       
-        <li><a href="#">Registrate</a></li>
-        <li><a href="#">Anunciate</a></li> 
-        <li><a href="#">Ver eventos</a></li> 
-
-      </ul>
-     
-      <ul class="nav navbar-nav navbar-right">
-        <li><img src="img/fb_nav.png"  class="redes add-marginss"alt="Cinque Terre" width="33" height="33"></li>
-        <li><img src="img/google_nav.png"class="redes add-marginss" alt="Cinque Terre" width="33" height="33"></li>
-        <li><img src="img/twi_nav.png"  class="redes add-marginss"alt="Cinque Terre" width="33" height="33"></li>
-        <li><img src="img/ins_nav.png"  class="redes add-marginss"alt="Cinque Terre" width="33" height="33"></li>
-        <li><img src="img/you_nav.png"  class="redes add-marginss"alt="Cinque Terre" width="33" height="33"></li>    
-
-        </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-
-<div id="container-nav">
- <div class="row estrellas">
-  <div class="container">
-  
-      <div class="col-md-2">
-        <center>
-          <img class="center" src="img/logo.png" alt="Logo" width="150" height="150">
-        </center>
-      </div>
-      <div class="col-md-3">
-        <h1 class="txtcolor5 text-center text-font">Quito Nocturno</h1>
-      </div>
-    
-    <div class="col-md-7">
-     <p><h1>PUBLICIDAD</h1></p>
-    </div>
-  </div>
- </div>
-</div>
-
-
-  <div class="container">
-
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-     
-    </div>
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li><a href="#">Inicio</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Eventos<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-          </ul>
-        </li>
-        <li><a href="#">Noticias</a></li>
-        <li><a href="#">Farreate</a></li>  
-        <li><a href="#">Galeria</a></li>
-        <li><a href="#">Tienda</a></li>       
-      </ul>
-     
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="txtcolor2">Registrate</span></a></li>
-         <li><a href="#"><span class="txtcolor2">Iniciar Secion</span></a></li>
-
-        
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
- </header>
-
+<?php include('header.php'); ?>
 
   <div class="container2">
 
@@ -270,70 +161,21 @@
 
 </div>   <!--main row-->
 
-<<<<<<< HEAD
-
   
 
     <div class="row"><div class="col-md-12"></div></div>
     <div class="container"> 
-    <div class="row"><center><h1 class="txtblanco">Actividad Reciente</h1></center></div><br>
-
-      <div class="row">
-          <div class="col-md-10">
-              <div class="row">
-                <div class="col-md-6">
-                <div class="col-md-12 bgcolor radius"><h3 class="txtblanco">Titulo de la actividad</h3></div>
-                
-                <div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br>
-                  <center><a href=""><button class="boton-activity">Leer mas</button></a></center>
-                </div>
-                <img src="img/actividad1.jpg" class="activity-img" >
-                </div>
-
-                <div class="col-md-6">
-                <div class="col-md-12 bgcolor radius"><h3 class="txtblanco">Titulo de la actividad</h3></div>
-                
-                <div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br>
-                  <center><a href=""><button class="boton-activity">Leer mas</button></a></center>
-                </div>
-                <img src="img/actividad1.jpg" class="activity-img" >
-                </div>
-
-              </div>
-              <div class="row">
-                
-              </div>
-          </div>
-          <div class="col-md-2">
-              <div class="bgcolor4"><h1>P<br>U<br>B<br>L<br>I<br>C<br>I<br>D<br>A<br>D</h1></div>
-          </div>
+        <div class="row addtop ">
+      <div class="bgcolor4 publi2">
+        <h1>PUBLICIDAD</h1>
       </div>
     </div>
-=======
->>>>>>> origin/master
-
-  
-
-    <div class="row"><div class="col-md-12"></div></div>
-    <div class="container"> 
-    <div class="row"><center><h1 class="txtblanco">Actividad Reciente</h1></center></div><br>
+    <div class="row"><center><h1 class="txtblanco">Actividad Reciente</h1></center></div>
 
       <div class="row">
           <div class="col-md-10">
               <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6  addtop">
                 <div class="col-md-12 bgcolor radius"><h3 class="txtblanco">Titulo de la actividad</h3></div>
                 
                 <div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -347,7 +189,7 @@
                 <img src="img/actividad1.jpg" class="activity-img" >
                 </div>
 
-                <div class="col-md-6">
+                <div class="col-md-6 addtop">
                 <div class="col-md-12 bgcolor radius"><h3 class="txtblanco">Titulo de la actividad</h3></div>
                 
                 <div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -360,66 +202,153 @@
                 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br>
                   <center><a href=""><button class="boton-activity">Leer mas</button></a></center>
                 </div>
-                <img src="img/actividad1.jpg" class="activity-img" >
+                <img src="img/1.jpg" class="activity-img" >
                 </div>
 
-              </div>
-              <div class="row">
+                 <div class="col-md-6  addtop">
+                <div class="col-md-12 bgcolor radius"><h3 class="txtblanco">Titulo de la actividad</h3></div>
                 
-              </div>
+                <div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br>
+                  <center><a href=""><button class="boton-activity">Leer mas</button></a></center>
+                </div>
+                <img src="img/2.jpg" class="activity-img" >
+                </div>
+
+                <div class="col-md-6 addtop">
+                <div class="col-md-12 bgcolor radius"><h3 class="txtblanco">Titulo de la actividad</h3></div>
+                
+                <div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br>
+                  <center><a href=""><button class="boton-activity">Leer mas</button></a></center>
+                </div>
+                <img src="img/3.jpg" class="activity-img" >
+                </div>
+
+                 <div class="col-md-6  addtop">
+                <div class="col-md-12 bgcolor radius"><h3 class="txtblanco">Titulo de la actividad</h3></div>
+                
+                <div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br>
+                  <center><a href=""><button class="boton-activity">Leer mas</button></a></center>
+                </div>
+                <img src="img/5.png" class="activity-img" >
+                </div>
+
+                <div class="col-md-6 addtop">
+                <div class="col-md-12 bgcolor radius"><h3 class="txtblanco">Titulo de la actividad</h3></div>
+                
+                <div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br>
+                  <center><a href=""><button class="boton-activity">Leer mas</button></a></center>
+                </div>
+                <img src="img/4.jpg" class="activity-img" >
+                </div>
+                
+
+                <!-- FIN DE ENTRADAS -->
+
+                <div class="col-md-12">
+                  <br><br>
+                   <center><h3 class="txtblanco">Invitaciones</h3></center>
+                   <div class="col-md-2">
+                    <img  class="img-entry" src="img/dj.jpg">
+                   </div>
+                   <div class="col-md-10">
+                    <blockquote class="txtblanco">
+                    <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate.</h5>
+                    <footer class="txtcolor2" ><cite title="Source Title">Source Title</cite></footer>
+                    <button class="btn btn-success add-margin" type="button"> 
+                      <span class="glyphicon glyphicon-star" ></span><span class="badge">4</span>
+                      </button>
+                  </blockquote>
+                   </div>
+
+                </div>
+
+                <div class="col-md-12">
+                  <br>
+                   <div class="col-md-2">
+                    <img  class="img-entry" src="img/dj.jpg">
+                   </div>
+                   <div class="col-md-10">
+                    <blockquote class="txtblanco">
+                    <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. 
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</h5>
+                    <footer class="txtcolor2" ><cite title="Source Title">Source Title</cite></footer>
+                      <button class="btn btn-success add-margin" type="button"> 
+                      <span class="glyphicon glyphicon-star" ></span><span class="badge">4</span>
+                      </button>
+                  </blockquote>
+                   </div>
+
+                </div>
+
+
+                <div class="col-md-12">
+                  <br>
+                   <div class="col-md-2">
+                    <img  class="img-entry" src="img/dj.jpg">
+                   </div>
+                   <div class="col-md-10">
+                    <blockquote class="txtblanco">
+                    <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. 
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</h5>
+                    <footer class="txtcolor2" ><cite title="Source Title">Source Title</cite></footer>
+                      <button class="btn btn-success add-margin" type="button"> 
+                      <span class="glyphicon glyphicon-star" ></span><span class="badge">4</span>
+                      </button>
+                  </blockquote>
+                   </div>
+
+                </div>
+
+
+
+
+              </div> 
           </div>
-          <div class="col-md-2">
-              <div class="bgcolor4"><h1>P<br>U<br>B<br>L<br>I<br>C<br>I<br>D<br>A<br>D</h1></div>
+           <br>
+
+
+          <div class="col-md-2 bgcolor4">
+             <div class="bgcolor4 publi"><h1>P<br>U<br>B<br>L<br>I<br>C<br>I<br>D<br>A<br>D</h1></div>
           </div>
       </div>
     </div>
  </div>
 
- </section><!--main-->
 
+
+<BR>
+
+ </section><!--main-->
 </div><!--container-->
 
  
- <footer class="bgcolor">
- 
-  <div class="container2">
-     <div class="row ">
-    <div class="col-md-4">
-      <div class="pad_inters">
-        <h3 class="text-center">Siguenos en Facebook</h3>
-      <center><iframe class="radius"src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FCompunec%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340px" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe></center>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="pad_inters">
-        <h3 class="text-center">Siguenos en Twitter</h3>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="pad_inters">
-        <h3 class="text-center">Contrata tu espacio</h3>
-        <div class="row">
-          <div height="50px" class="bgcolor4 pad_inter add-margin"><h1>PUBLICIDAD</h1></div>
-       
-        </div>
-        <div class="row">
-          <div height="50px" class="bgcolor4 pad_inter add-margin"><h1>PUBLICIDAD</h1></div>
-        </div>
-        <div class="row">
-          <div height="50px" class="bgcolor4 pad_inter add-margin"><h1>PUBLICIDAD</h1></div>
-        </div>
-        <div class="row">
-          <div height="50px" class="bgcolor4 pad_inter add-margin"><h1>PUBLICIDAD</h1></div>
-        </div>
-      </div>
-    </div>
-  </div>
-  </div>
-  <div class="container2 row"> 
-  <p class="txtcolor4 text-center">Quito Nocturno todos los derechos reservados por copyrigth.<br>
-                                  Desarrollado por <a href="http://www.compunec.com/" target="blank">Compunec</a>
-  </p>
-  </div>
- </footer>
-</body>
-</html>
+<?php include('footer.php'); ?>
