@@ -1,5 +1,28 @@
 <?php include('header.php'); ?>
 
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+  var altura = $('.menu').offset().top;
+  var fin = $('.menu').offset().bottom;
+  var foot = $('.fin').offset().top;
+  
+  $(window).on('scroll', function(){
+    if ( $(window).scrollTop() > altura ){
+      $('.menu').addClass('menu-fixed');
+    } 
+    else if ($(window).scrollTop() > foot) {
+      $('.menu').removeClass('menu-fixed');
+    }
+    else {
+      $('.menu').removeClass('menu-fixed');
+    }
+  });
+ 
+});
+</script>
+
   <div class="container2">
 
   <section class="main give-top bgcolor5">
@@ -336,13 +359,18 @@
            <br>
 
 
-          <div class="col-md-2 bgcolor4">
-             <div class="bgcolor4 publi"><h1>P<br>U<br>B<br>L<br>I<br>C<br>I<br>D<br>A<br>D</h1></div>
-          </div>
+      
+    <div class="col-md-2">        
+     <nav class="bgcolor4 menu give-top">
+             <div class="publi"><h1>P<br>U<br>B<br>L<br>I<br>C<br>I<br>D<br>A<br>D</h1></div>
+      </nav> 
+      </div>
+
+
+
       </div>
     </div>
  </div>
-
 
 
 <BR>

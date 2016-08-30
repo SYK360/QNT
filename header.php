@@ -12,8 +12,8 @@
     <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="img/favicon.ico"/>
 
     <script type="text/javascript" href="js.js"></script>
-    <script type="text/javascript" href="https://code.jquery.com/jquery-3.1.0.min.js"></script>
-    <script type="text/javascript" href="js/jquery.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <!--<script type="text/javascript" href="js/jquery.js"></script>-->
     <script type="text/javascript" href="js/bootstrap.min.js"></script>  
     <!-- FONTS -->
     <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>

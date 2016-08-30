@@ -1,3 +1,8 @@
+
+
+<div class="fin">
+
+  
  <footer class="bgcolor">
  
   <div class="container2">
@@ -39,5 +44,6 @@
   </p>
   </div>
  </footer>
+</div>
 </body>
 </html>
